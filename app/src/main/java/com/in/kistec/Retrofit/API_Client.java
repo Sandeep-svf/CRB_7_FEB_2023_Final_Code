@@ -14,7 +14,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class API_Client {
 
-   /* public static final String BASE_URL = "https://itdevelopmentservices.com/creditRating/api/";
+  /*  public static final String BASE_URL = "https://itdevelopmentservices.com/creditRating/api/";
     public static final String BASE_IMAGE = "https://itdevelopmentservices.com/creditRating/upload/images/";
     public static final String BASE_IMAGE_DOC = "https://itdevelopmentservices.com/creditRating/upload/nationalid/";*/
 
@@ -55,27 +55,7 @@ public class API_Client {
             return api;
     }
 
-//    private static final OkHttpClient okHttpClient = new OkHttpClient.Builder()
-//            .connectTimeout(60, TimeUnit.SECONDS)
-//            .writeTimeout(60, TimeUnit.SECONDS)
-//            .readTimeout(60, TimeUnit.SECONDS)
-//            .build();
-//    private static Retrofit retrofit = null;
-//    public static Retrofit getClient()
-//    {
-//        if (retrofit==null)
-//        {
-//            Gson gson = new GsonBuilder()
-//                    .setLenient()
-//                    .create();
-//            retrofit = new Retrofit.Builder()
-//                    .client(okHttpClient)
-//                    .baseUrl(ServiceUrlList.RootIpUrl)
-//                    .addConverterFactory(GsonConverterFactory.create(gson))
-//                    .build();
-//        }
-//        return retrofit;
-//    }
+
 }
 
 

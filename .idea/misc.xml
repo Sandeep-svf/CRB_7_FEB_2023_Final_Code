@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_.xml" value="0.209375" />
+        <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_contact_us.xml" value="0.209375" />
         <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_search__details.xml" value="0.209375" />
         <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
+        <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
+        <entry key="..\:/Office Project/CRB/CRB_7_Fab_2023_latest_Code/CRB/app/src/main/res/layout/record_details_image_view_holder.xml" value="0.209375" />
       </map>
     </option>
   </component>

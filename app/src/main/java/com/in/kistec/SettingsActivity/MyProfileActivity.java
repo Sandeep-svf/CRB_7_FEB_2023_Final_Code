@@ -497,8 +497,6 @@ public class MyProfileActivity extends AppCompatActivity {
         if (profileImage == null) {
             RequestBody requestFile = RequestBody.create(MediaType.parse("image/*"), "");
             filePart = MultipartBody.Part.createFormData("image", "", RequestBody.create(MediaType.parse("image/*"), ""));
-
-
         } else {
 //            RequestBody requestFile = RequestBody.create(MediaType.parse("image/*"), profileImage);
             filePart = MultipartBody.Part.createFormData("image", profileImage.getName(), RequestBody.create(MediaType.parse("image/*"), profileImage));
@@ -507,27 +505,14 @@ public class MyProfileActivity extends AppCompatActivity {
 
 
         if (idImage == null) {
-
             filePart1 = MultipartBody.Part.createFormData("nationalId", "", RequestBody.create(MediaType.parse("image/*"), ""));
-
-
         } else {
-
-
             filePart1 = MultipartBody.Part.createFormData("nationalId", idImage.getName(), RequestBody.create(MediaType.parse("image/*"), idImage));
             Log.e("Photo", String.valueOf(profileImage));
         }
 
 
-//        Log.e("documentData", String.valueOf(profileImage));
-//        try {
-//            File file = new File(idImage.getPath());
-//            RequestBody reportBody = RequestBody.create(MediaType.parse("image/*"), file);
-//        } catch (Exception e) {
-//            Log.v("dahgsdhjgdfhjs", "***********************************************" + e);
-//            Toast.makeText(this, "" + e, Toast.LENGTH_SHORT).show();
-//        }
-        // show till load api data
+
 
         final ProgressDialog pd = new ProgressDialog(this);
         pd.setCancelable(false);
